@@ -1,0 +1,20 @@
+{
+  "name": "portfolio2",
+  "version": "1.0.0",
+  "description": "primer proyecto del curso",
+  "main": "index.js",
+  "scripts": {
+    "arrancar": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "author": "matias",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-handlebars": "^7.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.3"
+  }
+}
