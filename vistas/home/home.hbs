@@ -2,7 +2,12 @@
 <hr/>
 <h3>Nombre: {{nombre}}</h3>
 <hr/>
+<h3>Variables local : {{ejemplo_local}}</h3>
+<hr/>
 <h3>Condicionales</h3>
+{{#if ejemplo_local}}
+    "{{ejemplo_local}}"
+{{/if}}
 <hr/>
 <h3>Areglos y Condicionales</h3>
 <ul>
@@ -10,3 +15,8 @@
     <li> {{@index}} - {{this.nombre}} | {{this.nic}}</li>
 {{/each}}
 </ul>
+<hr/>
+<h3>Helper personalizado</h3>
+{{#calculadora 12 13}}
+
+{{/calculadora}}
